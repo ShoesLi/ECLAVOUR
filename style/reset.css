@@ -1,0 +1,220 @@
+
+@font-face {
+  font-family: 'MarkPro-Bold';
+  src: url('https://d.1qianbao.com/activity/fonts/MarkPro-Bold.otf');
+}
+/* 去除点击背景高亮 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout:none; /*系统默认菜单被禁用*/
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+}
+*:not(input, textarea) {
+  -webkit-user-select:none; /*webkit浏览器*/
+  -khtml-user-select:none; /*早期浏览器*/
+  -moz-user-select:none;/*火狐*/
+  -ms-user-select:none; /*IE10*/
+  user-select:none;
+}
+::-webkit-input-placeholder {
+  color: #BBB;
+}
+::-moz-placeholder {
+  color: #BBB;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+html {
+  font-family: PingFangSC-Regular, "Microsoft Yahei", Helvetica Neue, Roboto, SimHei, sans-serif;
+  -ms-text-size-adjust: 100%; // 2
+-webkit-text-size-adjust: 100%; // 2
+}
+
+
+body {
+  margin: 0;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; // 1
+vertical-align: baseline; // 2
+}
+
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+
+b,
+strong {
+  font-weight: bold;
+}
+
+
+dfn {
+  font-style: italic;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+figure {
+  margin: 1em 40px;
+}
+
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; // 1
+font: inherit; // 2
+margin: 0; // 3
+border: 0 none;
+}
+
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: none;
+cursor: pointer; // 3
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+p,
+ul,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.clearfix {zoom:1;}    /*==for IE6/7 Maxthon2==*/
+.clearfix :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+/*公共样式*/
+@font-face {
+  font-family: 'MarkPro Bold';
+  src: url(https://d.1qianbao.com/activity/fonts/MarkPro-Bold.otf);
+}
