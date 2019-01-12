@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/parallax.js"></script>
+  <script src="./js/index.js"></script>
+  <style>
+    body{
+      height:2000px;
+    }
+    .main-window{
+      width: 1000px;
+      height: 400px;
+      background: url("./style/images/1.png") center center no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .parallax-window {
+      min-height: 400px;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+
+<section style="height: 200px;background: #FFFFFF">
+
+</section>
+<div class="parallax-window" data-position="top" data-bleed="10" data-speed="0.1" data-parallax="scroll" data-image-src="./style/images/1.png" style="height: 200px;" data-natural-width="1400" data-natural-height="900" >
+  <div class="parallax-slider">
+    <span style="position:absolute; top: 400px; left: 400px;" style="color:red">Some Text</span>
+    <p>Some other Content</p>
+  </div>
+</div>
+
+
+</body>
+</html>
