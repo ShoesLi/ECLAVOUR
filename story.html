@@ -11,7 +11,42 @@
   <link rel="stylesheet" href="./style/header.css"/>
   <link rel="stylesheet" href="./style/story.css"/>
   <link rel="stylesheet" href="./style/footer.css"/>
-
+  <style>
+    .story-main{
+      padding: 200px 100px 0;
+    }
+    .story{
+      width: 100%;
+      max-width: 1055px;
+    }
+    .part{
+      margin-bottom: 140px;
+    }
+    .part-left{
+      width: 40%;
+      float:left;
+    }
+    .part-right{
+      width: 40%;
+      float: right;
+    }
+    .part-title{
+      font-size: 28px;
+      color: #222222;
+      line-height: 42px;
+      margin-bottom: 32px;
+    }
+    .part-info{
+      font-size: 14px;
+      color: #2F2F2F;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    .part-img{
+      width: 100%;
+      /*margin: 0 auto;*/
+    }
+  </style>
 </head>
 <body>
   <div class="header-wrap">
@@ -53,22 +88,41 @@
 </div>
   <div class="story-main">
     <div class="story">
-      <div class="part part1">
-        <div class="part1-left">
-          <h2 class="part1-title">品牌故事</h2>
-          <p>ECLAVOUR 诞生于法国, 灵感取于法语 Éclairer le vœu, 意为“让希望发光”, 这也正是品牌钻石标志的来源, 旨在唤醒女性与生俱来的、钻石般的璀璨。</p>
-          <p>一直以来, 法国女性备受优雅、时尚的赞誉, 她们有着超凡的品味、精致的生活艺术, 完美演绎了法式生活的精髓 —— 尽情享受过程, 找回内心纯粹真我。</p>
+      <div class="part part1 clearfix">
+        <div class="part1-left part-left">
+          <h2 class="part1-title part-title">品牌故事</h2>
+          <p class="part-info">ECLAVOUR 诞生于法国, 灵感取于法语 Éclairer le vœu, 意为“让希望发光”, 这也正是品牌钻石标志的来源, 旨在唤醒女性与生俱来的、钻石般的璀璨。</p>
+          <p class="part-info">一直以来, 法国女性备受优雅、时尚的赞誉, 她们有着超凡的品味、精致的生活艺术, 完美演绎了法式生活的精髓 —— 尽情享受过程, 找回内心纯粹真我。</p>
         </div>
-        <div class="part1-right"></div>
+        <div class="part1-right part-right">
+          <img class="part-img part1-img" src="./style/images/img-28.png" alt=""/>
+        </div>
       </div>
-      <div class="part part2">
-        <div class="part1-left">
-
+      <div class="part part2 clearfix">
+        <div class="part1-left part-left">
+          <img class="part-img part2-img" src="./style/images/img-28.png" alt=""/>
         </div>
-        <div class="part1-right">
-          <h2 class="part1-title">瑞士 MIBELLE 生物化学研究所</h2>
-          <p>ECLAVOUR 继承了这种极致的生活理念, 在凝萃全球珍稀原料的基础上, 融合尖端实验室科技, 极力打造尊贵、奢华的法国护肤体验。</p>
-          <p>ECLAVOUR 深感于科技与护肤结合的魅力, 联手隶属于瑞士前三大专利品牌 MIBELLE 集团的 MIBELLE 生物化学研究所, 以先进的技术保留每一滴植物精华的自然能量, 并将其在护肤品中发挥到极致。</p>
+        <div class="part1-right  part-right">
+          <h2 class="part1-title part-title">瑞士 MIBELLE 生物化学研究所</h2>
+          <p class="part-info">ECLAVOUR 继承了这种极致的生活理念, 在凝萃全球珍稀原料的基础上, 融合尖端实验室科技, 极力打造尊贵、奢华的法国护肤体验。</p>
+          <p class="part-info">ECLAVOUR 深感于科技与护肤结合的魅力, 联手隶属于瑞士前三大专利品牌 MIBELLE 集团的 MIBELLE 生物化学研究所, 以先进的技术保留每一滴植物精华的自然能量, 并将其在护肤品中发挥到极致。</p>
+        </div>
+      </div>
+      <div class="part part3 clearfix">
+        <div class="part3-left part-left">
+          <p class="part-info">MIBELLE 生化研究所配有来自欧洲各地的专家, 所研发的成果都经由瑞士、德国、英国的专家小组测试。多年来, 研究所一直走在科学前沿, 致力于用创新的生物化学技术为肌肤问题提供专业的解决方案, 是 La Prairie 莱珀妮、LA MER 海蓝之谜的供应商, 荣获得众多国际奖项。</p>
+        </div>
+        <div class="part3-right part-right">
+          <img class="part-img part3-img" src="./style/images/img-28.png" alt=""/>
+        </div>
+      </div>
+      <div class="part part4 clearfix">
+        <div class="part4-left part-left">
+          <img class="part-img part4-img" src="./style/images/img-28.png" alt=""/>
+        </div>
+        <div class="part4-right  part-right">
+          <h2 class="part4-title part-title">大师研发</h2>
+          <p class="part-info">ECLAVOUR 还特意邀请到 MIBELLE 生化研究所创始人兼 CEO —— Zulli 博士担任 ECLAVOUR 品牌的首席研发人, 对每个产品线的质量进行严格的督导。</p>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
   height: 180px;
   padding: 0 100px;
   position:relative;
+  max-width: 1055px;
 }
 
 .header-wrap .head{
@@ -53,7 +54,6 @@
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   text-indent: -1000000px;
-
 }
 .contact-list{
   /*float: right;*/
