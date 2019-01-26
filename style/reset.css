@@ -210,8 +210,9 @@ h4 {
 a {
   text-decoration: none;
 }
-.clearfix {zoom:1;}    /*==for IE6/7 Maxthon2==*/
-.clearfix :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+/*.clearfix {zoom:1;}    !*==for IE6/7 Maxthon2==*!*/
+/*.clearfix :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}*/
+.clearfix{overflow:auto;_height:1%}
 
 /*公共样式*/
 @font-face {

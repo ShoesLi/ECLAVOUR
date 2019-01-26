@@ -1,0 +1,214 @@
+.ÉCLAVOUR-main{
+  width:100%;
+}
+.part1-wrap{
+  padding: 0 100px;
+}
+.part1{
+  max-width:1055px;
+  /*height: 370px;*/
+  padding-top:40%;
+  background: url("../style/images/img-1.png") right bottom no-repeat;
+  -webkit-background-size: 50%;
+  background-size: 50%;
+  position: relative;
+}
+.part1-left{
+  position: absolute;
+  top: 34%;
+}
+.part1-left p{
+  font-size: 24px;
+  color: #2F2F2F;
+  line-height: 42px;
+}
+
+
+.parallax-banner{
+  width: 100%;
+  height: 600px;
+  -webkit-background-size: 120%;
+  background-size: 120%;
+}
+
+.parallax-banner1{
+
+  /*height:688px;*/
+  background:url("../style/images/bg-1.jpg") center top no-repeat;
+
+  position:relative;
+}
+.banner-content{
+  width: 68%;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.banner1-title{
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+  margin-bottom:24px;
+}
+.banner1-info{
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 42px;
+}
+.banner1-button{
+  margin:64px auto 0;
+  display: block;
+  width:199px;
+  height:73px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 73px;
+}
+#foo{
+  background-color: blue;
+  height: 20px;
+  width:100%;
+}
+.part3-wrap{
+  padding: 0 100px;
+}
+.part3{
+  max-width:1055px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.part3 .products-title{
+  padding: 50px 0 56px;
+}
+.part3 .products-title .products-title-left{
+  float: left;
+  font-size: 16px;
+  color: #2F2F2F;
+  line-height: 16px
+}
+.part3 .products-title .products-title-right{
+  float: right;
+  font-size: 14px;
+  color: #2F2F2F;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 16px;
+  border-bottom: 1px solid #BABABA;
+}
+.part3 ul {
+  width: 103%;
+  margin-left: -3%;
+}
+.part3 ul .product-item{
+  float:left;
+  width: 30.3%;
+  margin-left: 3%;
+}
+.part3 .product-item .product-img-wrap{
+  width: 100%;
+  padding-bottom: 75%;
+  background: url("../style/images/img-2.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.part3 ul .item2 .product-img-wrap{
+  background-image: url("../style/images/img-3.png");
+}
+.part3 ul .item3 .product-img-wrap{
+  background-image: url("../style/images/img-4.png");
+}
+.part3 .product-main-info{
+  font-size: 16px;
+  color: #CCCCCC;
+  line-height: 21px;
+  margin: 23px 0 11px;
+}
+.part3 .product-sub-info{
+  font-size: 14px;
+  color: #2F2F2F;
+  line-height: 28px;
+}
+.part4.parallax-banner2{
+
+  /*height:688px;*/
+  background:url("../style/images/bg-2.jpg") center top no-repeat;
+  /*-webkit-background-size: 120%;*/
+  /*background-size: 120%;*/
+  position:relative;
+}
+.part5-wrap{
+  padding: 0 100px;
+}
+.part5{
+  max-width:1055px;
+  margin: 0 auto;
+  padding-bottom: 88px;
+}
+.part5 .part5-info{
+  font-size: 20px;
+  color: #2F2F2F;
+  text-align: center;
+  line-height: 30px;
+  margin: 64px 0 40px;
+}
+.part5 .part5-title{
+  font-size: 28px;
+  color: #2F2F2F;
+  text-align: center;
+  line-height: 42px;
+  margin-bottom: 70px;
+}
+.part5 ul{
+  width: 100.7%;
+  margin-left: -0.7%;
+}
+.part5 ul .part5-item{
+  float: left;
+  width: 24%;
+  padding-top: 24%;
+  margin: 0.8% 0 0 0.8%;
+  background: url("../style/images/img-5.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.part5 ul .item2{
+  background-image: url("../style/images/img-6.png");
+}
+.part5 ul .item3{
+  background-image: url("../style/images/img-7.png");
+}
+.part5 ul .item4{
+  background-image: url("../style/images/img-8.png");
+}
+.part5 ul .item5{
+  background-image: url("../style/images/img-9.png");
+}
+.part5 ul .item6{
+  background-image: url("../style/images/img-10.png");
+}
+.part5 ul .item7{
+  background-image: url("../style/images/img-11.png");
+}
+.part5 ul .item8{
+  background-image: url("../style/images/img-12.png");
+}
+
+.part6.parallax-banner3{
+
+  /*height:688px;*/
+  background:url("../style/images/bg-3.jpg") center top no-repeat;
+  -webkit-background-size: 120%;
+  background-size: 120%;
+  position:relative;
+}

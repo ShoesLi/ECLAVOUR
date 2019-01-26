@@ -2,207 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <title>ÉCLAVOUR </title>
   <script src="./js/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="./style/reset.css"/>
+  <link rel="stylesheet" href="./style/header.css"/>
+  <link rel="stylesheet" href="./style/index.css"/>
+  <link rel="stylesheet" href="./style/footer.css"/>
 
   <style>
     body{
-      height:3000px;
-    }
-    .header-wrap{
-      height: 180px;
-      padding: 0 100px;
-      position:relative;
-    }
-
-    .header-wrap .head{
-      max-width: 1055px;
-      height: 123px;
-      padding-top:64px;
-      padding-bottom: 19px;
-      box-sizing:border-box;
-      border-bottom: 1px dotted #222222;
-      margin: 0 auto;
-      position:relative;
-    }
-    .head .ÉCLAVOUR-logo{
-      /*float:left;*/
-      top:64px;
-      left: 0;
-      position:absolute;
-      width: 150px;
-      height: 40px;
-      border-right: 1px dotted #222222;
-      z-index: 20;
-      /*position: relative;*/
-    }
-    .head .ÉCLAVOUR-logo img{
-      width: 24px;
-      height: 40px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-top: -20px;
-      margin-left: -12px;
-    }
-    .head .ÉCLAVOUR-name-logo-wrap{
-      /*float: left;*/
-      width: 100%;
-      height: 40px;
-      position: relative;
-    }
-    .head .ÉCLAVOUR-name-logo-wrap h1{
-      width:114px;
-      height: 35px;
-      display: block;
-      position: absolute;
-      top:50%;
-      left: 50%;
-      margin-top: -17px;
-      margin-left: -57px;
-      background: url("./style/images/logo-eclavour.svg") center top no-repeat;
-      -webkit-background-size: 100% 100%;
-      background-size: 100% 100%;
-      text-indent: -1000000px;
-
-    }
-    .contact-list{
-      /*float: right;*/
-      position:absolute;
-      top:64px;
-      right: 0;
-      width: 150px;
-      height: 40px;
-      padding-left: 29px;
-      padding-top: 8px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      border-left: 1px dotted #222222;
-    }
-    .contact-list .contact-item{
-      width:24px;
-      height: 24px;
-      margin-right: 12px;
-      background: url("./style/images/icon-ins.svg") center center no-repeat;
-      -webkit-background-size: 18px 18px;
-      background-size: 18px 18px;
-      float: left;
-      cursor: pointer;
-    }
-    .contact-list .weibo{
-      background-image: url("./style/images/icon-weibo.svg");
-    }
-    .contact-list .wechat{
-      background-image: url("./style/images/icon-wechat.svg");
-    }
-
-    .header-title-list-wrap{
-      max-width: 1055px;
-      position:relative;
-      padding:23px 0;
-    }
-    .header-title-list-wrap .header-title-list{
-      position: absolute;
-      width: 338px;
-      left: 50%;
-      margin-left: -169px;
-    }
-    .header-title-list-wrap .header-title-item{
-      float: left;
-      margin-right: 84px;
-      font-size: 14px;
-      line-height: 16px;
-    }
-    .header-title-list-wrap .header-title-item a{
-      color:#2F2F2F;
-    }
-    .header-title-list-wrap .header-title-item:last-child{
-      margin: 0;
-    }
-    .ÉCLAVOUR-main{
-      width:100%;
-    }
-    .part1-wrap{
-      padding: 0 100px;
-    }
-    .part1{
-      max-width:1055px;
-      /*height: 370px;*/
-      padding-top:40%;
-      background: url("./style/images/img-1.png") right bottom no-repeat;
-      -webkit-background-size: 50%;
-      background-size: 50%;
-      position: relative;
-    }
-    .part1-left{
-      position: absolute;
-      top: 34%;
-    }
-    .part1-left p{
-      font-size: 24px;
-      color: #2F2F2F;
-      line-height: 42px;
-    }
-
-    .parallax-content{
-      width:100%;
-      height: 400px;
-      background: url("./style/images/bg-1.jpg") no-repeat;
-      -webkit-background-size: cover;
-      background-size: cover;
-    }
-    .parallax-banner{
-      width:100%;
-      padding-top:47.8%;
-      /*height:688px;*/
-      background:url("./style/images/bg-1.jpg") center top no-repeat;
-      -webkit-background-size: 120%;
-      background-size: 120%;
-      position:relative;
-    }
-    .banner-content{
-      width: 68%;
-      position: absolute;
-      top:50%;
-      left: 50%;
-      -webkit-transform: translate(-50%,-50%);
-      -moz-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-      -o-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
-    }
-    .banner1-title{
-      font-size: 20px;
-      color: #FFFFFF;
-      text-align: center;
-      line-height: 30px;
-      font-weight: normal;
-      margin-bottom:24px;
-    }
-    .banner1-info{
-      font-size: 28px;
-      color: #FFFFFF;
-      text-align: center;
-      line-height: 42px;
-    }
-    .banner1-button{
-      margin:64px auto 0;
-      display: block;
-      width:199px;
-      height:73px;
-      border: 2px solid #FFFFFF;
-      border-radius: 4px;
-      font-size: 14px;
-      color: #FFFFFF;
-      text-align: center;
-      line-height: 73px;
-    }
-    #foo{
-      background-color: blue;
-      height: 20px;
-      width:100%;
+      padding-bottom:100px;
+      min-width: 700px;
     }
   </style>
 </head>
@@ -253,24 +67,101 @@
         </div>
       </div>
     </div>
-    <div class="part2 parallax-banner parallax-banner1" data-100="background-position-y:0px;" data-1500="background-position-y:-500px;">
+    <div class="part2 parallax-banner parallax-banner1" data-100="background-position-y:0px;" data-1000="background-position-y:-300px;">
       <div class="banner-content">
         <h2 class="banner1-title">心向璀璨，回归真我</h2>
         <p class="banner1-info">ÉCLAVOUR 诞生于法国, 灵感取于法语 Éclairer le vœu, 意为“让希望发光”, 这也正是品牌钻石标志的来源, 旨在唤醒女性与生俱来的、钻石般的璀璨。</p>
         <a class="banner1-button" href="">查看完整品牌故事</a>
       </div>
     </div>
-  </div>
-  <div class="bg_01"></div>
-  <div class="parallax-content" data-100="background-position-y:0px;" data-1000="background-position-y:-100px;">
+    <div class="part3-wrap">
+      <div class="part3 products-part" data-100="background-position-y:0px;" data-1500="background-position-y:-500px;">
+        <div class="products-title clearfix">
+          <h3 class="products-title-left">产品介绍</h3>
+          <a class="products-title-right">查看完整产品介绍</a>
+        </div>
+        <ul class="clearfix">
+          <li class="product-item item1">
+            <div class="product-img-wrap"></div>
+            <p class="product-main-info">玫瑰能量, 重塑肌肤完美逆龄</p>
+            <p class="product-sub-info">阿尔卑斯玫瑰极难人工种植，仅生存在阿尔卑斯山海拔 2000 米处的岩石和冰雪里，富含珍贵的抗氧化物和蛋白质, 能有效应对干旱、严寒等恶劣环境。</p>
+          </li>
+          <li class="product-item item2">
+            <div class="product-img-wrap"></div>
+            <p class="product-main-info">科学配比, 焕发肌肤原始活力</p>
+            <p class="product-sub-info">坚决使用全天然的植物原料, 0 添加。融合瑞士尖端实验室科技。</p>
+          </li>
+          <li class="product-item item3">
+            <div class="product-img-wrap"></div>
+            <p class="product-main-info">精雕细琢, 致力打造护肤臻品</p>
+            <p class="product-sub-info">简单大气的包装设计, 低调奢华的品牌基调, 采用细心挑选面膜材质 —— 高端蚕丝面膜, 相比传统面膜更加薄透、细密。</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="part4 parallax-banner parallax-banner2" data-800="background-position-y:0px;" data-1800="background-position-y:-200px;">
+      <div class="banner-content">
+        <h2 class="banner1-title">植物能量 + 前端科技 + 科学配比</h2>
+        <p class="banner1-info">高山玫瑰焕颜修护面膜</p>
+        <a class="banner1-button" href="">开启肌肤逆龄之旅</a>
+      </div>
+    </div>
+    <div class="part5-wrap">
+      <div class="part5">
+        <p class="part5-info">关注我们</p>
+        <h3 class="part5-title">ÉCLAVOUR 更多故事</h3>
+        <ul class="clearfix">
+          <li class="part5-item item1"></li>
+          <li class="part5-item item2"></li>
+          <li class="part5-item item3"></li>
+          <li class="part5-item item4"></li>
+          <li class="part5-item item5"></li>
+          <li class="part5-item item6"></li>
+          <li class="part5-item item7"></li>
+          <li class="part5-item item8"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="part6 parallax-banner parallax-banner3" data-1800="background-position-y:0px;" data-2800="background-position-y:-200px;">
 
+    </div>
   </div>
-  <div id="foo" data-0="background-color:rgb(0,0,255);width:0%;" data-500="background-color:rgb(255,0,0);width:100%;" class="skrollable skrollable-between">WOOOT</div>
-  <div class="footer"></div>
+
+
+  <div class="footer">
+    <div class="header-title-list-wrap">
+      <ul class="header-title-list clearfix">
+        <li class="header-title-item">
+          <a href="">品牌故事</a>
+        </li>
+        <li class="header-title-item">
+          <a href="">
+            产品介绍
+          </a>
+        </li>
+        <li class="header-title-item">
+          <a href="">
+            联系我们
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-contact-list-wrap">
+      <ul class="footer-contact-list clearfix">
+        <li class="contact-item ins"></li>
+        <li class="contact-item weibo"></li>
+        <li class="contact-item email"></li>
+        <li class="contact-item wechat"></li>
+      </ul>
+    </div>
+  </div>
 
 </body>
 <script src="./js/skrollr.min.js"></script>
 <script type="text/javascript">
   var s = skrollr.init();
+  window.addEventListener('scroll', function(){
+    console.log(scrollY)
+  })
 </script>
 </html>

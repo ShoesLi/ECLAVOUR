@@ -1,0 +1,26 @@
+.footer{
+  padding: 100px 100px 0;
+  position: relative;
+}
+.footer .header-title-list-wrap{
+  margin-bottom: 65px;
+}
+.footer .header-title-list-wrap .header-title-item{
+  margin-right: 24px;
+}
+.footer .header-title-list-wrap .header-title-item:last-child{
+  margin-right: 0;
+}
+.footer .footer-contact-list-wrap{
+
+}
+.footer .footer-contact-list{
+  width:180px;
+  margin: 0 auto;
+}
+.footer .footer-contact-list .contact-item{
+  margin-right: 28px;
+}
+.footer .footer-contact-list .contact-item:last-child{
+  margin: 0;
+}
