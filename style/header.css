@@ -18,10 +18,10 @@
     height: 24px;
   }
   .header-wrap .head .ÉCLAVOUR-name-logo-wrap .ÉCLAVOUR-name-logo{
-    width: 57px;
-    height:18px;
-    margin-top: -9px;
-    margin-left: -28px;
+    width: 68px;
+    height: 22px;
+    margin-top: -11px;
+    margin-left: -34px;
   }
   .header-wrap .head .contact-list{
     padding:0;
@@ -40,7 +40,7 @@
   .header-wrap .contact-list .show-title-list-icon .icon-line{
     width: 70%;
     padding-top: 10%;
-    background-color: #ccc;
+    background-color: #646464;
     margin-bottom: 16%;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;

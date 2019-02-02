@@ -1,34 +1,70 @@
 @media only screen and (max-width: 768px){
   body .story-main{
-    padding: 10% 8% 0;
+    padding: 80% 8% 0;
   }
   body .story-main .part{
     margin-bottom: 30%;
   }
-  .part .part-title{
+  .story-banner-info{
+    display: none;
+  }
+  .story-main .story-banner{
+    padding-top:85.8%;
+    background-image: url('./images/img-24.jpg');
+  }
+
+  .story-main .story-banner-info-out{
+    display: block;
+    margin-bottom: 20%;
+  }
+  .story-banner-info-out .story-main-title{
+    font-size: 14px;
+    color: #2F2F2F;
+    line-height: 42px;
+    text-align: center;
+  }
+  .story-banner-info-out .story-sub-title{
+    font-size: 12px;
+    color: #646464;
+    line-height: 30px;
+    text-align: center;
+  }
+  .story-main .part .part-title{
     font-size: 14px;
     color: #2F2F2F;
     text-align: center;
     line-height: 16px;
   }
-  .part .part-info{
+  .story-main .part .part-info{
     font-size: 12px;
-    color: #2F2F2F;
-    line-height: 16px;
+    color: #646464;
+    line-height: 18px;
+    margin-bottom: 12%;
   }
-  .part .part-left{
+  .story-main .part .part-left{
     width: 100%;
     float: none;
   }
-  .part .part-right{
+  .story-main .part .part-right{
     width: 100%;
     float: none;
+  }
+  .story-main .part4 .part-info{
+    float: left;
+    margin-bottom: 2%;
+  }
+  .story-main .part4 .part4-right{
+    margin-bottom: 10%;
   }
 }
 
 
 .story-main{
   padding: 40% 100px 0;
+}
+
+.story-banner-info-out{
+  display: none;
 }
 
 .story-banner{
@@ -98,6 +134,7 @@
   float: right;
 }
 .part-title{
+  font-weight: normal;
   font-size: 28px;
   color: #222222;
   line-height: 42px;

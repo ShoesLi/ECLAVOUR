@@ -3,6 +3,21 @@
   font-family: 'MarkPro-Bold';
   src: url('https://d.1qianbao.com/activity/fonts/MarkPro-Bold.otf');
 }
+@font-face
+{
+  font-family: "SourceHanSerifCN";
+  src: url('SourceHanSerifCN-Regular.otf'); /* IE9+ */
+}
+body{
+  font-family: "SourceHanSerifCN";
+}
+.the-font{
+  font-family: "SourceHanSerifCN";
+}
+body .normal-font{
+  font-family: "Microsoft Yahei", "PingFangSC-Medium";
+}
+
 /* 去除点击背景高亮 */
 * {
   margin: 0;

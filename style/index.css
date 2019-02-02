@@ -32,7 +32,7 @@
   .ÉCLAVOUR-main .parallax-banner{
     width: 100%;
     height: 0;
-    padding: 67.2% 0 0;
+    padding: 90% 0 0;
     font-size: 14px;
     background-size: 290%;
     background-position: center top;
@@ -118,7 +118,7 @@
     display: block;
     font-size: 12px;
     color: #2F2F2F;
-    line-height: 16px;
+    line-height: 18px;
   }
 
   .ÉCLAVOUR-main .part4{
@@ -180,7 +180,7 @@
 }
 .part1-left{
   position: absolute;
-  top: 34%;
+  top: 50%;
 }
 .part1-left .part1-info{
   font-size: 24px;
@@ -204,6 +204,7 @@
 }
 .banner-content{
   width: 80%;
+  max-width: 1055px;
   position: absolute;
   top:50%;
   left: 50%;
@@ -226,6 +227,7 @@
   color: #FFFFFF;
   text-align: center;
   line-height: 42px;
+  font-family: "Microsoft Yahei", "PingFangSC-Medium";
 }
 .banner1-button{
   margin:64px auto 0;
@@ -238,6 +240,7 @@
   color: #FFFFFF;
   text-align: center;
   line-height: 73px;
+  font-family: "Microsoft Yahei", "PingFangSC-Medium";
 }
 .banner1-button:hover{
   background-color:#fff;
