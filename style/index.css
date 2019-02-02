@@ -1,45 +1,209 @@
+
+
+@media only screen and (max-width: 768px){
+  body{
+    padding-bottom:100px;
+    width: 100%; !important;
+  }
+  .ÉCLAVOUR-main .part1-wrap{
+    padding-top: 60%;
+    position: relative;
+  }
+  .part1-wrap .part1{
+    width: 100%;
+    height:0;
+    padding-top: 60%;
+    position: absolute;
+    top: 0;
+    left:0;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 60px bottom;
+  }
+  .part1-wrap .part1 .part1-left{
+    top:60%;
+    left: 10%;
+  }
+  .part1-wrap .part1 .part1-left .part1-info{
+    font-size: 14px;
+    color: #2F2F2F;
+    line-height: 21px;
+  }
+  .ÉCLAVOUR-main .parallax-banner{
+    width: 100%;
+    height: 0;
+    padding: 67.2% 0 0;
+    font-size: 14px;
+    background-size: 290%;
+    background-position: center top;
+  }
+  .ÉCLAVOUR-main .parallax-banner .banner1-title{
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 4.27%;
+  }
+  .ÉCLAVOUR-main .parallax-banner .banner1-info{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+  }
+  .ÉCLAVOUR-main .parallax-banner .banner1-button{
+    width: 50%;
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 6.67%;
+  }
+  .ÉCLAVOUR-main .part3-wrap{
+    width: 100%;
+    padding: 14.13% 8.8% 6%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ÉCLAVOUR-main .part3-wrap .products-title{
+    padding: 0 0 14.13%;
+  }
+  .ÉCLAVOUR-main .part3-wrap .products-title .products-title-left{
+    font-size: 14px;
+    color: #2F2F2F;
+    text-align: center;
+    line-height: 16px;
+  }
+  .ÉCLAVOUR-main .part3-wrap .products-title .products-title-right{
+    font-size: 12px;
+    color: #2F2F2F;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 14px;
+  }
+  .ÉCLAVOUR-main .part3{
+    padding-bottom:0;
+  }
+  .ÉCLAVOUR-main .part3-wrap .part3 ul{
+    width: 100%;
+    margin: 0;
+  }
+  .ÉCLAVOUR-main .part3-wrap .product-item{
+    float: none;
+    width: 100%;
+    margin: 0 0 10%;
+  }
+  .ÉCLAVOUR-main .part3 .product-item .product-img-wrap{
+    float: left;
+    width: 40%;
+    padding-bottom: 30%;
+  }
+  .ÉCLAVOUR-main .part3 .product-item .product-info-wrap{
+    width: 52%;
+    float: left;
+    margin-left: 8%;
+  }
+  .ÉCLAVOUR-main .part3 .product-item .product-info-wrap .product-main-info{
+    font-size: 12px;
+    color: #CCCCCC;
+    line-height: 16px;
+    margin: 2% 0 3%;
+  }
+  .ÉCLAVOUR-main .part3 .product-item .product-info-wrap .product-sub-info{
+    display: none;
+  }
+  .ÉCLAVOUR-main .part3 .product-item .product-info-wrap .product-sub-info-small{
+    display: block;
+    font-size: 12px;
+    color: #2F2F2F;
+    line-height: 16px;
+  }
+
+  .ÉCLAVOUR-main .part4{
+    background-position: center;
+  }
+  .ÉCLAVOUR-main .part5-wrap{
+    padding: 0;
+    width:100%;
+    overflow: hidden;
+  }
+  .ÉCLAVOUR-main .part5-wrap .part5-info{
+    font-size: 12px;
+    color: #2F2F2F;
+    text-align: center;
+    line-height: 30px;
+    margin: 10% 0 2%;
+  }
+  .ÉCLAVOUR-main .part5-wrap .part5-title{
+    font-size: 14px;
+    color: #2F2F2F;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 8%;
+    }
+  .ÉCLAVOUR-main .part5-wrap .part5 {
+    padding-bottom: 2%;
+  }
+  .ÉCLAVOUR-main .part5-wrap .part5-item{
+    width: 49.5%;
+    padding-top: 49.5%;
+    margin: 0 0 1% 1%;
+  }
+  .ÉCLAVOUR-main .part5-wrap .part5-item.left-item{
+    margin-left:0;
+  }
+  .ÉCLAVOUR-main .part6{
+    padding-top:51.2%;
+  }
+}
+
+
+
 .ÉCLAVOUR-main{
   width:100%;
+  /*display: none;*/
 }
 .part1-wrap{
   padding: 0 100px;
 }
 .part1{
   max-width:1055px;
-  /*height: 370px;*/
-  padding-top:40%;
+  height: 376px;
+  /*padding-top:40%;*/
   background: url("../style/images/img-1.png") right bottom no-repeat;
   -webkit-background-size: 50%;
   background-size: 50%;
   position: relative;
+  margin:0 auto;
 }
 .part1-left{
   position: absolute;
   top: 34%;
 }
-.part1-left p{
+.part1-left .part1-info{
   font-size: 24px;
   color: #2F2F2F;
   line-height: 42px;
 }
 
-
 .parallax-banner{
   width: 100%;
   height: 600px;
-  -webkit-background-size: 120%;
-  background-size: 120%;
+  -webkit-background-size: 2560px 1200px;
+  background-size: 2560px 1200px;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .parallax-banner1{
-
   /*height:688px;*/
-  background:url("../style/images/bg-1.jpg") center top no-repeat;
-
+  background-image:url("../style/images/bg-1-2.jpg");
   position:relative;
 }
 .banner-content{
-  width: 68%;
+  width: 80%;
   position: absolute;
   top:50%;
   left: 50%;
@@ -75,6 +239,10 @@
   text-align: center;
   line-height: 73px;
 }
+.banner1-button:hover{
+  background-color:#fff;
+  color: #333;
+}
 #foo{
   background-color: blue;
   height: 20px;
@@ -105,6 +273,10 @@
   text-align: right;
   line-height: 16px;
   border-bottom: 1px solid #BABABA;
+  cursor: pointer;
+}
+.part3 .products-title .products-title-right:hover{
+  opacity: .5;
 }
 .part3 ul {
   width: 103%;
@@ -139,10 +311,13 @@
   color: #2F2F2F;
   line-height: 28px;
 }
+.product-item .product-info-wrap .product-sub-info-small{
+  display: none;
+}
 .part4.parallax-banner2{
 
   /*height:688px;*/
-  background:url("../style/images/bg-2.jpg") center top no-repeat;
+  background-image:url("../style/images/bg-2-2.jpg");
   /*-webkit-background-size: 120%;*/
   /*background-size: 120%;*/
   position:relative;
@@ -186,10 +361,10 @@
   background-image: url("../style/images/img-6.png");
 }
 .part5 ul .item3{
-  background-image: url("../style/images/img-7.png");
+  background-image: url("../style/images/img-7-2.png");
 }
 .part5 ul .item4{
-  background-image: url("../style/images/img-8.png");
+  background-image: url("../style/images/img-8-2.png");
 }
 .part5 ul .item5{
   background-image: url("../style/images/img-9.png");
@@ -198,7 +373,7 @@
   background-image: url("../style/images/img-10.png");
 }
 .part5 ul .item7{
-  background-image: url("../style/images/img-11.png");
+  background-image: url("../style/images/img-11-2.png");
 }
 .part5 ul .item8{
   background-image: url("../style/images/img-12.png");
@@ -207,8 +382,17 @@
 .part6.parallax-banner3{
 
   /*height:688px;*/
-  background:url("../style/images/bg-3.jpg") center top no-repeat;
-  -webkit-background-size: 120%;
-  background-size: 120%;
+  background-image:url("../style/images/bg-3-2.jpg");
   position:relative;
+}
+.part6{
+  position: relative;
+}
+.part6-mask{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,.2);
+  top:0;
+  left:0;
 }

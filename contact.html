@@ -7,87 +7,13 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="format-detection" content="email=no">
   <title>联系我们</title>
+  <script src="./js/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="./style/reset.css"/>
   <link rel="stylesheet" href="./style/header.css"/>
+  <link rel="stylesheet" href="./style/contact.css"/>
   <link rel="stylesheet" href="./style/footer.css"/>
   <style>
-    body{
-      min-width: 700px;
-      padding-bottom: 200px;
-    }
-    .contact-main{
-      padding: 0 100px;
-    }
-    .content-wrap{
-      width: 100%;
-      max-width: 1055px;
-    }
-    .image-wrap{
-      position: relative;
-      width: 66.6%;
-      padding-top: 38.7%;
-      margin: 10.8% auto 12.89%;
-    }
-    .ECLAVOUR-location{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .ECLAVOUR-info-wrap{
-      margin-bottom: 186px;
-    }
-    .contact-title{
-      font-size: 28px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 42px;
-      margin-bottom: 24px;
-    }
-    .contact-info{
-      font-size: 14px;
-      color: #646464;
-      text-align: center;
-      line-height: 28px;
-    }
-    .wechat-wrap{
-      margin-bottom: 200px;
-    }
-    .wechat-title{
-      font-size: 28px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 42px;
-      margin-bottom: 44px;
-    }
-    .wechat-code-wrap{
-      width: 70%;
-      max-width: 560px;
-      text-align: center;
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-    }
-    .wechat-code-item{
-      /*float: left;*/
-      width: 200px;
-      /*margin-right: 15.16%;*/
-    }
-    .wechat-code-item.item2{
-      /*margin-right:0;*/
-    }
-    .wechat-code-item .wechat-code-img{
-      width:104px;
-      height: 104px;
-      margin:0 auto 24px;
-    }
-    .wechat-code-item .wechat-info{
-      font-size: 14px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 28px;
-    }
+
   </style>
 </head>
 <body>
@@ -106,22 +32,33 @@
     </div>
     <ul class="contact-list">
       <li class="contact-item ins"></li>
-      <li class="contact-item weibo"></li>
-      <li class="contact-item wechat"></li>
+      <!--<li class="contact-item weibo"></li>-->
+      <li class="contact-item wechat" id="wechat-wrap">
+      </li>
+      <li class="wechat-code-wrap hide-wechat-code">
+        <img src="./style/images/nika-code.jpg" alt=""/>
+        <p class="wechat-info">扫描添加 nikachen</p>
+        <p class="wechat-info">加入 ÉCLAVOUR 代理</p>
+      </li>
+      <li class="show-title-list-icon">
+        <div class="icon-line line1"></div>
+        <div class="icon-line line2"></div>
+        <div class="icon-line line3"></div>
+      </li>
     </ul>
   </div>
-  <div class="header-title-list-wrap">
+  <div class="header-title-list-wrap hidden">
     <ul class="header-title-list clearfix">
       <li class="header-title-item">
-        <a href="">品牌故事</a>
+        <a href="./story.html">品牌故事</a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./product.html">
           产品介绍
         </a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./contact.html">
           联系我们
         </a>
       </li>
@@ -142,12 +79,12 @@
       <h3 class="wechat-title">微信公众号</h3>
       <ul class="wechat-code-wrap clearfix">
         <li class="wechat-code-item item1">
-          <img src="./style/images/obj-rose.png" alt="" class="wechat-code-img"/>
+          <img src="./style/images/wechat-code.jpg" alt="" class="wechat-code-img"/>
           <p class="wechat-info">扫描上方二维码, 进入</p>
           <p class="wechat-info"> ECLAVOUR 官方微信公众号</p>
         </li>
         <li class="wechat-code-item item2">
-          <img src="./style/images/obj-tree.png" alt="" class="wechat-code-img"/>
+          <img src="./style/images/nika-code.jpg" alt="" class="wechat-code-img"/>
           <p class="wechat-info">扫描上方二维码, 加入</p>
           <p class="wechat-info">ÉCLAVOUR 代理</p>
         </li>
@@ -159,28 +96,32 @@
   <div class="header-title-list-wrap">
     <ul class="header-title-list clearfix">
       <li class="header-title-item">
-        <a href="">品牌故事</a>
+        <a href="./story.html">品牌故事</a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./product.html">
           产品介绍
         </a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./contact.html">
           联系我们
         </a>
       </li>
     </ul>
   </div>
-  <div class="footer-contact-list-wrap">
-    <ul class="footer-contact-list clearfix">
-      <li class="contact-item ins"></li>
-      <li class="contact-item weibo"></li>
-      <li class="contact-item email"></li>
-      <li class="contact-item wechat"></li>
-    </ul>
-  </div>
+  <!--<div class="footer-contact-list-wrap">-->
+  <!--<ul class="footer-contact-list clearfix">-->
+  <!--<li class="contact-item ins"></li>-->
+  <!--<li class="contact-item weibo"></li>-->
+  <!--<li class="contact-item email"></li>-->
+  <!--<li class="contact-item wechat"></li>-->
+  <!--</ul>-->
+  <!--</div>-->
+  <p class="copyright">
+    ÉCLAVOUR&copy;版权所有。
+  </p>
 </div>
 </body>
+<script src="./js/header.js"></script>
 </html>

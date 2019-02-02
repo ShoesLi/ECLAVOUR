@@ -1,8 +1,144 @@
+
+@media only screen and (max-width: 768px){
+  body .header-wrap{
+    padding:0;
+    width: 100%;
+    height: auto;
+  }
+  body .header-wrap .head{
+    width: 100%;
+    height: 73px;
+    padding: 27px 0 22px;
+  }
+  .header-wrap .head .ÉCLAVOUR-logo{
+    width: 20%;
+    top: 27px;
+  }
+  .header-wrap .head .ÉCLAVOUR-name-logo-wrap{
+    height: 24px;
+  }
+  .header-wrap .head .ÉCLAVOUR-name-logo-wrap .ÉCLAVOUR-name-logo{
+    width: 57px;
+    height:18px;
+    margin-top: -9px;
+    margin-left: -28px;
+  }
+  .header-wrap .head .contact-list{
+    padding:0;
+    width: 20%;
+    height: 24px;
+    top: 27px;
+  }
+  .header-wrap .contact-list .show-title-list-icon{
+    position: absolute;
+    display: block;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-28%, -50%);
+  }
+  .header-wrap .contact-list .show-title-list-icon .icon-line{
+    width: 70%;
+    padding-top: 10%;
+    background-color: #ccc;
+    margin-bottom: 16%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .header-wrap .contact-list .show-title-list-icon.close-status{
+    /*padding-top:20%;*/
+  }
+  .header-wrap .contact-list .show-title-list-icon.close-status .icon-line{
+    width: 75.5%;;
+    /*position: absolute;*/
+  }
+  .header-wrap .contact-list .show-title-list-icon.close-status .line1{
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+  }
+  .header-wrap .contact-list .show-title-list-icon.close-status .line2{
+    opacity: 0;
+  }
+  .header-wrap .contact-list .show-title-list-icon.close-status .line3{
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+  }
+  .header-wrap .head .contact-list .contact-item{
+    display: none;
+  }
+  .header-wrap .header-title-list-wrap{
+    width: 100%;
+    height: 60px;
+    transition: all .3s ease;
+    padding:0;
+    overflow: hidden;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .3);
+  }
+  .header-wrap .header-title-list-wrap.hidden{
+    height:0;
+  }
+  .header-wrap .header-title-list-wrap .header-title-list{
+    top: 20%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-wrap .header-title-list-wrap .header-title-item{
+    margin-right: 1%;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .header-wrap .head .ÉCLAVOUR-logo{
+    height: 24px;
+  }
+
+  .header-wrap .head .ÉCLAVOUR-logo img{
+    width: 12px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -6px;
+  }
+}
+
+
+.header-title-item:hover{
+  opacity: .5;
+}
+.contact-item:hover{
+  opacity: .5;
+  /*background-color: rgba(255, 255, 255, .5);*/
+}
 .header-wrap{
   height: 180px;
   padding: 0 100px;
   position:relative;
   max-width: 1055px;
+  z-index: 1000;
+  margin: 0 auto;
 }
 
 .header-wrap .head{
@@ -20,7 +156,7 @@
   top:64px;
   left: 0;
   position:absolute;
-  width: 150px;
+  width: 120px;
   height: 40px;
   border-right: 1px dotted #222222;
   z-index: 20;
@@ -41,7 +177,7 @@
   height: 40px;
   position: relative;
 }
-.head .ÉCLAVOUR-name-logo-wrap h1{
+.head .ÉCLAVOUR-name-logo-wrap .ÉCLAVOUR-name-logo{
   width:114px;
   height: 35px;
   display: block;
@@ -60,7 +196,7 @@
   position:absolute;
   top:64px;
   right: 0;
-  width: 150px;
+  width: 120px;
   height: 40px;
   padding-left: 29px;
   padding-top: 8px;
@@ -69,24 +205,54 @@
   box-sizing: border-box;
   border-left: 1px dotted #222222;
 }
+.contact-list .show-title-list-icon{
+  display: none;
+}
 .contact-item{
   width:24px;
   height: 24px;
-  margin-right: 12px;
-  background: url("../style/images/icon-ins.svg") center center no-repeat;
+  margin-left: -2px;
+  background-position: center center;
+  background-repeat: no-repeat;
   -webkit-background-size: 18px 18px;
   background-size: 18px 18px;
   float: left;
   cursor: pointer;
 }
 .ins{
-  background-image: url("../style/images/icon-ins.svg");
+  /*background-image: url("../style/images/icon-ins.svg");*/
 }
 .weibo{
-  background-image: url("../style/images/icon-weibo.svg");
+  /*background-image: url("../style/images/icon-weibo.svg");*/
 }
 .wechat{
   background-image: url("../style/images/icon-wechat.svg");
+  position: relative;
+}
+.header-wrap .wechat-code-wrap.hide-wechat-code{
+  display: none;
+}
+.header-wrap .wechat-code-wrap{
+  opacity: 1;
+  position: absolute;
+  display: block;
+  width: 144px;
+  height: 168px;
+  background-color: #fff;
+  top: 40px;
+  left: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
+.header-wrap .wechat-code-wrap img{
+  width:104px;
+  height: 104px;
+  margin: 10px auto 8px;
+}
+.header-wrap .wechat-code-wrap .wechat-info{
+  font-size: 12px;
+  color: #2F2F2F;
+  text-align: center;
+  line-height: 16px;
 }
 /*.email{*/
 /*background-image: url("");*/

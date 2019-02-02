@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px){
+  body .story-main{
+    padding: 10% 8% 0;
+  }
+  body .story-main .part{
+    margin-bottom: 30%;
+  }
+  .part .part-title{
+    font-size: 14px;
+    color: #2F2F2F;
+    text-align: center;
+    line-height: 16px;
+  }
+  .part .part-info{
+    font-size: 12px;
+    color: #2F2F2F;
+    line-height: 16px;
+  }
+  .part .part-left{
+    width: 100%;
+    float: none;
+  }
+  .part .part-right{
+    width: 100%;
+    float: none;
+  }
+}
+
+
+.story-main{
+  padding: 40% 100px 0;
+}
+
+.story-banner{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding-top: 37.2%;
+  background:url("./images/img-24.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.story-banner-main{
+  position: absolute;
+  max-width:1055px;
+  width: 100%;
+  height: 100%;
+  padding: 0 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  top:0;
+  left: 50%;
+  transform:translateX(-50%);
+}
+.story-banner-info{
+  position: absolute;
+  width:300px;
+  top:60%;
+  right:0;
+}
+.story-main-title{
+  font-size: 28px;
+  color: #2F2F2F;
+  line-height: 42px;
+}
+.story-sub-title{
+  font-size: 14px;
+  color: #646464;
+  line-height: 30px;
+}
+.story-banner-content{
+  width:100%;
+  height: 100%;
+  max-width: 1055px;
+  margin: 0 auto;
+}
+.story{
+  width:100%;
+  max-width: 1055px;
+  margin: 0 auto;
+}
+
+.story{
+  width: 100%;
+  max-width: 1055px;
+}
+.part{
+  margin-bottom: 140px;
+}
+.part-left{
+  width: 40%;
+  float:left;
+}
+.part-right{
+  width: 40%;
+  float: right;
+}
+.part-title{
+  font-size: 28px;
+  color: #222222;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+.part-info{
+  font-size: 14px;
+  color: #2F2F2F;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.part-img{
+  width: 100%;
+  /*margin: 0 auto;*/
+}
+.text-part{
+  width: 45%;
+}
+.part4{
+  margin-bottom: 0;
+}
+.part4 .part-info{
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.part4 .part-left{
+  width:55%;
+}
+.part4 .part4-right{
+  width:30%;
+}

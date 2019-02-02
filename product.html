@@ -7,87 +7,13 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="format-detection" content="email=no">
   <title>产品介绍</title>
+  <script src="./js/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="./style/reset.css"/>
   <link rel="stylesheet" href="./style/header.css"/>
+  <link rel="stylesheet" href="./style/product.css"/>
   <link rel="stylesheet" href="./style/footer.css"/>
   <style>
-    body{
-      min-width: 700px;
-      padding-bottom: 200px;
-    }
-    .contact-main{
-      padding: 0 100px;
-    }
-    .content-wrap{
-      width: 100%;
-      max-width: 1055px;
-    }
-    .image-wrap{
-      position: relative;
-      width: 66.6%;
-      padding-top: 38.7%;
-      margin: 10.8% auto 12.89%;
-    }
-    .ECLAVOUR-location{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .ECLAVOUR-info-wrap{
-      margin-bottom: 186px;
-    }
-    .contact-title{
-      font-size: 28px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 42px;
-      margin-bottom: 24px;
-    }
-    .contact-info{
-      font-size: 14px;
-      color: #646464;
-      text-align: center;
-      line-height: 28px;
-    }
-    .wechat-wrap{
-      margin-bottom: 200px;
-    }
-    .wechat-title{
-      font-size: 28px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 42px;
-      margin-bottom: 44px;
-    }
-    .wechat-code-wrap{
-      width: 70%;
-      max-width: 560px;
-      text-align: center;
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-    }
-    .wechat-code-item{
-      /*float: left;*/
-      width: 200px;
-      /*margin-right: 15.16%;*/
-    }
-    .wechat-code-item.item2{
-      /*margin-right:0;*/
-    }
-    .wechat-code-item .wechat-code-img{
-      width:104px;
-      height: 104px;
-      margin:0 auto 24px;
-    }
-    .wechat-code-item .wechat-info{
-      font-size: 14px;
-      color: #2F2F2F;
-      text-align: center;
-      line-height: 28px;
-    }
+
   </style>
 </head>
 <body>
@@ -106,52 +32,97 @@
     </div>
     <ul class="contact-list">
       <li class="contact-item ins"></li>
-      <li class="contact-item weibo"></li>
-      <li class="contact-item wechat"></li>
+      <!--<li class="contact-item weibo"></li>-->
+      <li class="contact-item wechat" id="wechat-wrap">
+      </li>
+      <li class="wechat-code-wrap hide-wechat-code">
+        <img src="./style/images/nika-code.jpg" alt=""/>
+        <p class="wechat-info">扫描添加 nikachen</p>
+        <p class="wechat-info">加入 ÉCLAVOUR 代理</p>
+      </li>
+      <li class="show-title-list-icon">
+        <div class="icon-line line1"></div>
+        <div class="icon-line line2"></div>
+        <div class="icon-line line3"></div>
+      </li>
     </ul>
   </div>
-  <div class="header-title-list-wrap">
+  <div class="header-title-list-wrap hidden">
     <ul class="header-title-list clearfix">
       <li class="header-title-item">
-        <a href="">品牌故事</a>
+        <a href="./story.html">品牌故事</a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./product.html">
           产品介绍
         </a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./contact.html">
           联系我们
         </a>
       </li>
     </ul>
   </div>
 </div>
-<div class="contact-main">
-  <div class="content-wrap">
-    <div class="image-wrap">
-      <img class="ECLAVOUR-location" src="./style/images/img-29.jpg" alt=""/>
+<div class="story-main">
+  <div class="story-banner">
+    <div class="story-banner-main">
+      <div class="story-banner-info">
+        <p class="story-main-title">高山玫瑰焕颜修护面膜</p>
+        <p class="story-sub-title">植物能量 + 前端科技 + 科学配比</p>
+      </div>
+
     </div>
-    <div class="ECLAVOUR-info-wrap">
-      <h3 class="contact-title">ECLAVOUR 办公总部</h3>
-      <p class="contact-info">中国上海徐汇区肇嘉浜路 1890 号, 岸飞大厦 A 座 21 楼</p>
-      <p class="contact-info">加盟热线: +86 (21) 09786543</p>
+  </div>
+  <div class="story">
+    <div class="part part1 clearfix">
+      <div class="part1-left part-left text-part">
+        <h2 class="part1-title part-title">玫瑰能量，重塑肌肤完美逆龄</h2>
+        <p class="part-info">阿尔卑斯玫瑰极难人工种植, 仅生存在阿尔卑斯山海拔 2000 米处的岩石和冰雪里, 富含珍贵的抗氧化物和蛋白质, 能有效应对干旱、严寒等恶劣环境。多年的科学研究证明, 阿尔卑斯玫瑰干细胞富含花旗松素、叶绿酸、茶多酚等活性成分, 能有效促进胶原蛋白新生, 同时去除自由基与毒素, 具备显著的补水、抗氧化功效。</p>
+      </div>
+      <div class="part1-right part-right">
+        <img class="part-img part1-img" src="./style/images/product-1.jpg" alt=""/>
+      </div>
     </div>
-    <div class="wechat-wrap">
-      <h3 class="wechat-title">微信公众号</h3>
-      <ul class="wechat-code-wrap clearfix">
-        <li class="wechat-code-item item1">
-          <img src="./style/images/obj-rose.png" alt="" class="wechat-code-img"/>
-          <p class="wechat-info">扫描上方二维码, 进入</p>
-          <p class="wechat-info"> ECLAVOUR 官方微信公众号</p>
-        </li>
-        <li class="wechat-code-item item2">
-          <img src="./style/images/obj-tree.png" alt="" class="wechat-code-img"/>
-          <p class="wechat-info">扫描上方二维码, 加入</p>
-          <p class="wechat-info">ÉCLAVOUR 代理</p>
-        </li>
-      </ul>
+    <div class="part part2 clearfix">
+      <div class="part1-right  part-right text-part">
+        <h2 class="part1-title part-title">科学配比，焕发肌肤原始活力</h2>
+        <p class="part-info">坚决使用全天然的植物原料, 0 添加。融合瑞士尖端实验室科技 —— PhytoCellTecTM 植物干细胞培养, 将阿尔卑斯玫瑰干细胞萃取, 结合其他植物提取物, 以科学的比例注入面膜中, 再配以阿尔卑斯山海拔 3000 米以上的冰川融水, 直接深入底层肌肤细胞, 启发肌肤源源活力。</p>
+
+      </div>
+      <div class="part1-left part-left">
+        <img class="part-img part2-img" src="./style/images/product-2.jpg" alt=""/>
+      </div>
+
+    </div>
+    <div class="part part3 clearfix">
+      <div class="part3-left part-left text-part">
+        <h2 class="part1-title part-title">精雕细琢，致力打造护肤臻品</h2>
+        <p class="part-info">简单大气的包装设计, 低调奢华的品牌基调, 采用细心挑选面膜材质—高端蚕丝面膜, 相比传统面膜更加薄透、细密, 能在瞬息之间将阿尔卑斯玫瑰干细胞精萃导入肌底, 让肌肤倍感润泽, 彰显至臻的法式护肤体验。</p>
+      </div>
+      <div class="part3-right part-right">
+        <img class="part-img part3-img" src="./style/images/product-3.jpg" alt=""/>
+      </div>
+    </div>
+    <div class="part part4 clearfix">
+      <div class="part4-right  part-right text-part">
+        <h2 class="part4-title part-title">部分原料</h2>
+        <p class="part-info">泛醇；</p>
+        <p class="part-info">卵磷脂；</p>
+        <p class="part-info">白藜芦醇；</p>
+        <p class="part-info">高山玫瑰杜鹃花提取物；</p>
+        <p class="part-info">玫瑰花提取物；</p>
+        <p class="part-info">燕麦叶提取物；</p>
+        <p class="part-info">银耳提取物；</p>
+        <p class="part-info">金钗石斛提取物；</p>
+        <p class="part-info">木槿树皮提取物；</p>
+        <p class="part-info">家独行菜芽提取物</p>
+      </div>
+      <div class="part4-left part-left">
+        <img class="part-img part4-img" src="./style/images/product-4.jpg" alt=""/>
+      </div>
+
     </div>
   </div>
 </div>
@@ -159,28 +130,32 @@
   <div class="header-title-list-wrap">
     <ul class="header-title-list clearfix">
       <li class="header-title-item">
-        <a href="">品牌故事</a>
+        <a href="./story.html">品牌故事</a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./product.html">
           产品介绍
         </a>
       </li>
       <li class="header-title-item">
-        <a href="">
+        <a href="./contact.html">
           联系我们
         </a>
       </li>
     </ul>
   </div>
-  <div class="footer-contact-list-wrap">
-    <ul class="footer-contact-list clearfix">
-      <li class="contact-item ins"></li>
-      <li class="contact-item weibo"></li>
-      <li class="contact-item email"></li>
-      <li class="contact-item wechat"></li>
-    </ul>
-  </div>
+  <!--<div class="footer-contact-list-wrap">-->
+  <!--<ul class="footer-contact-list clearfix">-->
+  <!--<li class="contact-item ins"></li>-->
+  <!--<li class="contact-item weibo"></li>-->
+  <!--<li class="contact-item email"></li>-->
+  <!--<li class="contact-item wechat"></li>-->
+  <!--</ul>-->
+  <!--</div>-->
+  <p class="copyright">
+    ÉCLAVOUR&copy;版权所有。
+  </p>
 </div>
 </body>
+<script src="./js/header.js"></script>
 </html>
