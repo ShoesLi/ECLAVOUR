@@ -272,6 +272,7 @@
 }
 .header-wrap .header-title-list{
   width: 480px;
+  overflow: hidden;
 }
 .header-title-list-wrap .header-title-item{
   float: left;
