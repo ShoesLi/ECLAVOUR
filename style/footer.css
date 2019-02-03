@@ -14,6 +14,9 @@
   .footer .copyright{
     margin-top: 10%;
   }
+  body .footer .header-title-list-wrap .header-title-item{
+    margin-right: 8%;
+  }
 }
 
 .footer{
@@ -32,6 +35,9 @@
 }
 .footer .footer-contact-list-wrap{
 
+}
+.footer .header-title-list-wrap .header-title-list{
+  transform: translateX(-52%);
 }
 .footer .footer-contact-list{
   width:180px;
